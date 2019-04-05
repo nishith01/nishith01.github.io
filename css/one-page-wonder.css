@@ -1,0 +1,180 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.4 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+@font-family{
+  font-family: parchment;
+  src:url(PARCHM.ttf);
+}
+@font-family{
+  font-family:kingthings calligraphica;
+  src:url(Kingthings_Calligraphica_2.ttf);
+}
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-pur{
+  padding: 10px;
+  background:#631649;
+  color: white;
+}
+.bg-pur>a{
+  color:#fffb00 !important;
+  text-decoration: none !important;
+}
+.show{
+  opacity:1;
+  background:#631649;
+}
+.nav>li>a{
+  color:#fffb00;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active{
+  color: #631649 !important;
+  background:#fffb00 !important;
+}
+.nav>a{
+  color:#fffb00 !important;
+}
+.navbar-toggle .icon-bar{
+  background-color: #fffb00;
+}
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('../img/Capture.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.parch{
+  font-size: 5rem !important;
+  font-weight: 500 !important;
+  font-family: parchment;
+  color:#fffb00;
+  padding: 5px;
+}
+.kings a{
+  font-size: 2rem;
+  font-family: kingthings calligraphica;
+  color: #fffb00;
+  text-decoration: none 
+}
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 18rem !important;
+  font-weight: 500 !important;
+  font-family: parchment;
+  color:#fffb00;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+  font-family: kingthings calligraphica;
+  color: #fffb00;
+  margin-bottom: 100px;
+}
+
+header.masthead .bounce{
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+.about{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 0px 30px 30px 30px;
+  text-align: justify; 
+  height: 100%;
+  font-size: 24px;
+}
+@media(max-width: 700px){
+  .about{
+    font-size: 16px;
+  }
+}
+.about h1{
+  text-align: center;
+  margin: 40px;
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
