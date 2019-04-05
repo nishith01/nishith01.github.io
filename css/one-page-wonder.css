@@ -5,11 +5,11 @@
  */
 @font-family{
   font-family: parchment;
-  src:url(PARCHM.ttf);
+  src:url("PARCHM.ttf");
 }
 @font-family{
   font-family:kingthings calligraphica;
-  src:url(Kingthings_Calligraphica_2.ttf);
+  src:url("Kingthings_Calligraphica_2.ttf");
 }
 body {
   font-family: 'Lato';
