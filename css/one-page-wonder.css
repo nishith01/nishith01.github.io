@@ -3,14 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
-@font-family{
-  font-family: parchment;
-  src:url("PARCHM.ttf");
-}
-@font-family{
-  font-family:kingthings calligraphica;
-  src:url("Kingthings_Calligraphica_2.ttf");
-}
+
 body {
   font-family: 'Lato';
 }
@@ -25,13 +18,7 @@ h6 {
   font-weight: 800;
 }
 
-.btn-xl {
-  text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-}
+
 
 .bg-pur{
   padding: 10px;
@@ -49,6 +36,13 @@ h6 {
 .nav>li>a{
   color:#fffb00;
 }
+.navbar-brand{
+  padding: 5px 25px !important;
+}
+.navbar-brand>img{
+  width:70px;
+}
+
 .nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active{
   color: #631649 !important;
   background:#fffb00 !important;
@@ -88,20 +82,17 @@ header.masthead .masthead-content {
   position: relative;
 }
 
-header.masthead .masthead-content .masthead-heading {
-  font-size: 18rem !important;
-  font-weight: 500 !important;
-  font-family: parchment;
-  color:#fffb00;
-}
+
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
-  font-family: kingthings calligraphica;
+  font-family: 'PT serif', 'serif';
   color: #fffb00;
   margin-bottom: 100px;
 }
-
+header .logo-img img{
+    width: 400px;
+  }
 header.masthead .bounce{
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -125,6 +116,12 @@ header.masthead .bounce{
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
+  }
+}
+@media(max-width: 700px)
+{
+  header .logo-img img{
+    width: 200px;
   }
 }
 .about{
